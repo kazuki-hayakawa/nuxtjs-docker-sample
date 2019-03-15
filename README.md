@@ -51,7 +51,7 @@ docker run -d -p 3000:3000  nuxtjs-sample:1.0
 `docker ps -a` で動いているコンテナを確認できます。該当の CONTAINER ID を見つけたら
 
 ```
-docker rm -g [CONTAINER_ID]
+docker rm -f [CONTAINER_ID]
 ```
 
 しておいてください。
